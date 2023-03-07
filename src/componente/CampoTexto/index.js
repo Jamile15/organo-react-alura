@@ -1,7 +1,7 @@
 import './CampoTexto.css'
 const CampoTexto = (props) => {
     console.log(props)
-    const placeholderModificada = `${props.placeholder}...`
+    const placeholderModificada= `${props.placeholder}...`
     return(
         <div className="campo-texto">
             <label>
